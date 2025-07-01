@@ -59,5 +59,3 @@ A React app to explore GoDaddy's public GitHub repositories.
 - Lazy loading languages
 
 ---
-
-_Made by Krishan_
