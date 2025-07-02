@@ -1,6 +1,10 @@
 # GoDaddy GitHub Explorer 🛠
 
-A React app to explore GoDaddy's public GitHub repositories.
+A modern React app to explore GoDaddy's public GitHub repositories with enhanced 3D UI effects and responsive design.
+
+## 🌐 Live Demo
+
+**[View Live App](https://krishan-godaddy-repos-app.onrender.com/)**
 
 ## 🚀 How to Run
 
@@ -25,16 +29,35 @@ A React app to explore GoDaddy's public GitHub repositories.
    ```
 
 ## ✅ Features
-- Paginated list of GoDaddy repositories (10 per page)
-- Repo detail page with:
-  - Title
-  - Description
-  - Repository URL
-  - Languages
-  - Forks, Issues, Watchers
-- Responsive UI with Material-UI
-- State management with React Query
-- Tests with React Testing Library
+
+### 🎨 Enhanced UI & UX
+- **3D Card Effects**: Interactive cards with perspective transforms and hover animations
+- **Responsive Design**: Optimized for mobile, tablet, and desktop (xs/sm/lg breakpoints)
+- **Modern Pagination**: Shows 9 repositories per page in a clean 3×3 grid layout
+- **Gradient Backgrounds**: Beautiful multi-layered gradients with radial overlays
+- **Smooth Animations**: Staggered loading animations and smooth transitions
+- **GoDaddy Branding**: Official logo.png integration with GitHub icons for repositories
+
+### 📊 Repository Features
+- **Repository Grid**: Responsive grid layout (1-3 columns based on screen size)
+- **Rich Repository Cards**:
+  - GitHub icons and repository names
+  - Descriptions with smart truncation
+  - Star count, forks, watchers, and language tags
+  - Enhanced hover effects with 3D transforms
+- **Detailed Repository View**:
+  - Two-column responsive layout
+  - Statistics sidebar with color-coded metrics
+  - Language breakdown with percentages
+  - Repository info (visibility, branch, dates, size)
+  - Action buttons (GitHub link, clone URL copy)
+
+### 🛠 Technical Features
+- **State Management**: React Query for efficient data fetching and caching
+- **Responsive UI**: Material-UI with custom CSS enhancements
+- **Accessibility**: Support for reduced motion, high contrast, and focus states
+- **Performance**: Optimized animations and lazy loading
+- **Testing**: Comprehensive tests with React Testing Library
 
 ## 📦 Tech Stack
 - React 18
